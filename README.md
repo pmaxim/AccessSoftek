@@ -1,4 +1,4 @@
-#1. SQL tables
+1. SQL tables
 Let’s say we have a production database for a large web application like Amazon. We have two tables:
 table Order
  OrderID int,
