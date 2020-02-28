@@ -8,8 +8,7 @@ table OrderItem
  OrderID int, -- // Points to Order table.
  ... -- // Other order item columns
 Let’s say we have and Order row with OrderID = 1 and several OrderItem rows with OrderID = 1, and we need to change OrderID to
-2.
-How would you implement this? Provide a SQL fragment that accomplishes this task.
+2. How would you implement this? Provide a SQL fragment that accomplishes this task.
 Answer:
 We look at the ConsoleApp project
 @"INSERT INTO Orders (Id, Name)
